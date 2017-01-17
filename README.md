@@ -6,6 +6,8 @@ Get subpages (eg. projects) loop:
 
     {% for project in page('projects').children.visible %}
     
+I thought you would use `page.projects`. ¯\_(ツ)_/¯
+    
 Use Kirby's thumb function (eg for project loop above):
 
     <img src="{{ thumb(project.image, {'width': 300, 'height': 200} ).url }}">
