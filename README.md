@@ -1,16 +1,26 @@
 # Kirby Twig Cheatsheet
 
+FVSCH brings Twig templates to Kirby. 
+
 https://github.com/fvsch/kirby-twig
 
-Get subpages (eg. projects) loop:
+Keep your code clean and reusable. However, it may not be clear on how to do certain things the Twig was as opposed to PHP.
+
+## Child / subpages loop
+
+Get children (eg. projects) loop:
 
     {% for project in page('projects').children.visible %}
     
 I thought you would use `page.projects`. ¯\\\_(ツ)_/¯
+
+## Thumbnails
     
 Use Kirby's thumb function (eg for project loop above):
 
     <img src="{{ thumb(project.image, {'width': 300, 'height': 200} ).url }}">
+    
+## YAML    
     
 Parse yaml "array":
 
