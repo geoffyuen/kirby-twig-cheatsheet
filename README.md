@@ -34,3 +34,5 @@ Eg. In your site.md:
 Use this in your template .twig:
 
     {% for label, social in yaml(site.socialmedia) %}
+
+`label` gives you the array key string (eg. LinkedIn). `social` gives you the url (eg. https://www.linkedin.com/in/geoffyuen?trk=hp-identity-name)
