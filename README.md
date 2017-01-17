@@ -4,7 +4,7 @@ FVSCH brings Twig templates to Kirby.
 
 https://github.com/fvsch/kirby-twig
 
-Keep your code clean and reusable. However, it may not be clear on how to do certain things the Twig was as opposed to PHP.
+Keep your code clean and reusable. However, it may not be clear on how to do certain things the Twig way as opposed to using PHP.
 
 - For general use refer to this guide: https://github.com/fvsch/kirby-twig/blob/master/doc/templating.md
 - If you need some php functions read this: https://github.com/fvsch/kirby-twig/blob/master/doc/functions.md
