@@ -12,7 +12,8 @@ Use Kirby's thumb function (eg for project loop above):
     
 Parse yaml "array":
 
-Eg. In your content:
+Eg. In your site.md:
+
     ----
 
     Socialmedia:
